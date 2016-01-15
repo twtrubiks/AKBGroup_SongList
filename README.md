@@ -5,7 +5,7 @@ AKB48  SKE48  HKT48  NMB48  SDN48  乃木坂46  公演(stage)  Solo  子團 點�
 
 
 特色
-* AKB48 SKE48 NMB48 SDN48 乃木坂46 點歌單，可供開電台使用
+* AKB48  SKE48  HKT48  NMB48  SDN48  乃木坂46  公演(stage)  Solo  子團，可供開電台使用
 
 
 ### 說明
