@@ -104,7 +104,7 @@ function check_request_song(){
 
 
 function back_home() {  
- location.href="index_new.html";
+ location.href="index.html";
 
 }
 

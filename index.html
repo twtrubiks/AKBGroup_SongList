@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/style_index.css">
+    <title>歌曲列表</title>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="js/index_jquery.js"></script>
+    <script type="text/javascript">
+		$(function() {
+			var $pxs_container = $('#pxs_container');
+			$pxs_container.parallaxSlider();
+		});
+        function to_list() {
+            location.href = "list.php";
+        }
+        function to_FB() {
+            location.href = "https://www.facebook.com/groups/617521948265617/";
+        }
+        function to_FeedbackForm() {
+            location.href = "https://docs.google.com/spreadsheet/embeddedform?formkey=dGZXN21FLXlic1Vaenk0UFBvWjBOZmc6MQ";
+        }
+    </script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1>歌曲列表</h1>
+    </div>
+    <div id="pxs_container" class="pxs_container">
+        <div class="pxs_bg">
+            <div class="pxs_bg2"></div>
+        </div>
+        <div class="pxs_loading">Loading images...</div>
+        <div class="pxs_slider_wrapper">
+            <ul class="pxs_slider">
+                <li>
+                    <a href="AKB.html"><img src="images/index/AKB48.png" title="AKB48"></a>
+                </li>
+                <li>
+                    <a href="SKE.html"><img src="images/index/SKE48.png" title="SKE48"></a>
+                </li>
+                <li>
+                    <a href="NMB.html"><img src="images/index/NMB48.png" title="NMB48"></a>
+                </li>
+                <li>
+                    <a href="HKT.html"><img src="images/index/HKT48.png" title="HKT48"></a>
+                </li>
+                <li>
+                    <a href="SDN.html"><img src="images/index/SDN48.png" title="SDN48"></a>
+                </li>
+                <li>
+                    <a href="46.html"><img src="images/index/N46.png" title="乃木坂46"></a>
+                </li>
+                <li>
+                    <a href="Keyakizaka46.html"><img src="images/index/Keyakizaka.png" title="欅坂46"></a>
+                </li>
+                <li>
+                    <a href="LIVE.html"><img src="images/index/LIVE.png" title="公演"></a>
+                </li>
+                <li>
+                    <a href="sub-Group.html"><img src="images/index/sub-Group.png" title="子團"></a>
+                </li>
+                <li>
+                    <a href="SOLO.html"><img src="images/index/SOLO.png" title="SOLO"></a>
+                </li>
+                <li>
+                    <a href="SP.html"><img src="images/index/SP.png" title="期間限定組合"></a>
+                </li>
+                <li>
+                    <a href="Other.html"><img src="images/index/Other.png" title="其他"></a>
+                </li>
+            </ul>
+            <div class="pxs_navigation">
+                <span class="pxs_next"></span>
+                <span class="pxs_prev"></span>
+            </div>
+            <ul class="pxs_thumbnails">
+                <li><img src="images/thumbs/AKB48.jpg" title="AKB48"></li>
+                <li><img src="images/thumbs/SKE48.jpg" title="SKE48"></li>
+                <li><img src="images/thumbs/NMB48.jpg" title="NMB48"></li>
+                <li><img src="images/thumbs/HKT48.jpg" title="HKT48"></li>
+                <li><img src="images/thumbs/SDN48.jpg" title="SDN48"></li>
+                <li><img src="images/thumbs/N46.jpg" title="乃木坂46"></li>
+                <li><img src="images/thumbs/Keyakizaka.jpg" title="欅坂46"></li>
+                <li><img src="images/thumbs/LIVE.jpg" title="公演"></li>
+                <li><img src="images/thumbs/sub-Group.jpg" title="子團"></li>
+                <li><img src="images/thumbs/SOLO.jpg" title="SOLO"></li>
+                <li><img src="images/thumbs/SP.jpg" title="期間限定組合"></li>
+                <li><img src="images/thumbs/Other.jpg" title="其他"></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer">
+        <input type="button" class="button" value="加入FB社團" onclick="to_FB()">
+        <input type="button" class="button" value="已點播歌曲" onclick="to_list()">
+        <input type="button" class="button" value="意見表" onclick="to_FeedbackForm()">
+    </div>
+</body>
+
+</html>
