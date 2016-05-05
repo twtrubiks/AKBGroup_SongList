@@ -1,6 +1,6 @@
 # AKBGroup_SongList
 AKB48  SKE48  HKT48  NMB48  SDN48  乃木坂46  公演(stage)  Solo  子團 點歌單
-* [Demo](http://goo.gl/8meSND)   網路免費空間(網站可能會死)
+* [Demo](https://pure-mountain-51538.herokuapp.com/index.php)   網路免費空間(網站可能會死)
 * [Demo](https://twtrubiks.github.io/AKBGroup_SongList/index_new.html)  github.io
 因為內含jQuery以及PHP，所以顯示不完全(github.io只支援靜態網頁)
 
